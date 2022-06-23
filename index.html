@@ -74,7 +74,11 @@
 
     <script>
       var queries = window.location.href.replace(/^.+\?/,'').split('&')
-      var params = [];
+      var params = []
+      params["path"] = ["json/"]
+      params["assembly"] = ["output"]
+      params["view"] = ["circle"]
+      params["altView"] = ["cumulative", "table"]
       queries.forEach(function(q){
         parts = q.split('=')
         if (!params[parts[0]]) params[parts[0]] = [];
