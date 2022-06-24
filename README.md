@@ -1,4 +1,17 @@
-# assembly-stats
+# Fork running `assembly-stats` on github pages.
+
+Demo:  https://ammaraziz.github.io/assembly-stats/
+
+### Instructions
+
+- Fork this repo
+- Configure github pages to run on the repo
+- push your `json` file to 'json/'
+    - `json` must be named in this fashion: `output.assembly-stats.{customname}.json`
+
+
+
+# assembly-stats - Original info below
 
 [![DOI](https://zenodo.org/badge/20772/rjchallis/assembly-stats.svg)](https://zenodo.org/badge/latestdoi/20772/rjchallis/assembly-stats)
 
