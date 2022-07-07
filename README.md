@@ -1,4 +1,4 @@
-# Fork running `assembly-stats` on github pages.
+# Running `assembly-stats` on github pages.
 
 Demo:  https://ammaraziz.github.io/assembly-stats/
 
