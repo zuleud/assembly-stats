@@ -2,7 +2,7 @@
 
 Demo:  https://ammaraziz.github.io/assembly-stats/
 
-### Instructions
+### Detailed instructions to run assembly-stats on github pages
 
 - Fork this repo by pressing the `Fork` button (top right)
 - Configure github pages to run on the repo
@@ -23,7 +23,18 @@ Demo:  https://ammaraziz.github.io/assembly-stats/
     - Now go to the link saved above, mine is at https://ammaraziz.github.io/assembly-stats/ your link will look like https://{YourUserName}.github.io/assembly-stats/
     - Be patient, github is generating the webpage. Refresh a few times. If you are super impatient, click on `Actions` button to see the progress.
 
+### Short instructions
+
+- Fork this repo
+- Configure github pages to work on the master bracnh
+- Push your `.json` file to 'json/'
+- `json` must be named in this fashion: `output.assembly-stats.{customName}.json`
+
 Please cite the original repo! All credit goes to rjchallis.
+
+### What has been changed
+
+All code, design and programming was done by user @rjchallis. We have modified a few lines of code to allow the html to work nicely with Github Pages.
 
 # assembly-stats - Original info below
 
