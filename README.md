@@ -4,12 +4,26 @@ Demo:  https://ammaraziz.github.io/assembly-stats/
 
 ### Instructions
 
-- Fork this repo
+- Fork this repo by pressing the `Fork` button (top right)
 - Configure github pages to run on the repo
-- push your `json` file to 'json/'
-    - `json` must be named in this fashion: `output.assembly-stats.{customname}.json`
+    - Go to `Settings` then on the left hand bar go to `Pages`
+    - Under **Source** click the dropdown menu (`None`), select `Master`, click `Save`
+    - The page should updates and a green tick should appear next to `Your site is published at .....`.
+    - Remember the above link! 
+- Option 1 - Push your `.json` file to 'json/'
+    - `json` must be named in this fashion: `output.assembly-stats.{customName}.json`
+- Option 2 - Manually edit the `.json` file
+    - Click on `<> Code` (this should return you to the repo home screen where the files are listed)
+    - Click on the folder called `json`
+    - Click on the file named `output.assembly-stats.json`
+    - Click on the pencil icon to edit the json file (top right)
+    - Paste your own json file into the edit box
+    - Under `Commit changes` enter a commit title (anything, doesnt matter)
+    - Click commit
+    - Now go to the link saved above, mine is at https://ammaraziz.github.io/assembly-stats/ your link will look like https://{YourUserName}.github.io/assembly-stats/
+    - Be patient, github is generating the webpage. Refresh a few times. If you are super impatient, click on `Actions` button to see the progress.
 
-
+Please cite the original repo! All credit goes to rjchallis.
 
 # assembly-stats - Original info below
 
